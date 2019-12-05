@@ -1,6 +1,6 @@
 import React from "react";
 
-function Heading(){
+function Header(){
   return (
       <header>
     <h1>Keeper
@@ -9,4 +9,4 @@ function Heading(){
   );
 }
 
-export default Heading;
+export default Header;
