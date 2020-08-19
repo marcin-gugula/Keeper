@@ -44,7 +44,7 @@ function CreateArea(props) {
           value={note.content}
           onClick={expandInput}
         />
-        <Zoom IN={isExpanded}>
+        <Zoom in={isExpanded}>
         <Fab onClick={submit}>
           <AddIcon />
         </Fab>
